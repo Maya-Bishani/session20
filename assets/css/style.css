@@ -1,0 +1,37 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+  form input{
+    display: block;
+    margin: 10px ;
+    padding: 10px ;
+  }
+  form input:focus{
+    border:  2px solid #59ab6e;
+    outline: none;
+  }
+  form button{
+    padding: 10px;
+    background-color:#59ab6e;
+    border-radius: 5px;
+    color: white;
+    margin: 10px;
+    border: none;
+  }
+  .delete-button{
+    background-color: red;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+  }
